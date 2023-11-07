@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "UserInfo";
+}
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>Məlumatlarım </h5>
+                </div>
+                <div class="ibox-content">
+                    <form method="get">
+                        <div class="form-group  row">
+                            <img alt="image" class="rounded-circle" src="~/ASBCards.az/image/LargeAsb.png" />
+                        </div>
+                        <div class="form-group  row">
+                            <label class="col-sm-3 col-form-label">Əməkdaşın ad və soyadı:</label>
+                            <div class="col-sm-10">
+                                <b>Naib İbişov</b>
+                            </div>
+                        </div>
+                        <div class="form-group  row">
+                            <label class="col-sm-3 col-form-label">Elektron poçt:</label>
+                            <div class="col-sm-10">
+                                <b>Naib.Ibishov@asb.az</b>
+                            </div>
+                        </div>
+                        
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <button asp-controller="Home" asp-action="Index" class="btn btn-white btn-sm" type="submit">Geri</button>
+                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
